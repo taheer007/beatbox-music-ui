@@ -1,0 +1,23 @@
+body{
+    background-image:url("bgg\ music.png");
+}
+h1{
+    font-style: oblique;
+    font-size: medium;
+    font-weight: 100;
+}
+searchbar{
+    float:right;
+    position: absolute;
+    right: 50px;
+
+    
+}
+.set{
+    position: fixed;
+    background-color: transparent;
+    padding-left:95%;
+    width:15px;
+    height:15px;
+    
+}
