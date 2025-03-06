@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shreyaa ghoshal.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+<body>
+    <div class="shreyalogo1">
+    <img class="shreyalogo" src="Copy_of_Beat_Box-removebg.png" height="200px" width="300px">
+</div>
+    <div class="shreyalogo2">
+    <center>
+         <img class="shreyaimg" src="shreya goshal.jpg">
+         <h3 class="shreyaname">SHREYA GOSHAL</h3>
+    </center>
+</div>
+    <center>
+    <li>
+<div class="container">
+    <button>
+    <img src="dewani mastani.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="Deewani Mastani.mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="mashallah song.jpg" height="40px" width="40px"> 
+    <audio controls class="audbox" > <source src="Mashallah.mp3" type="audio/mpeg"</audio>
+</button>
+</div>
+
+<div>
+    <button>
+    <img src="chikni chameli.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="Chikni Chameli(KoshalWorld.Com).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="tum jo mile.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="old_Riwayat-Tum Jo Mile (1).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="zoobi doobi.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="bollywood_3 Idiots - Zoobi Doobi (Remix).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+<div>
+    <button>
+    <img src="teri meri.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="Teri Meri.mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+</li>
+    </center>
+    <script>
+        document.addEventListener('play', function(e){  
+          var audios = document.getElementsByTagName('audio');  
+          for(var i = 0, len = audios.length; i < len;i++){  
+              if(audios[i] != e.target){  
+                  audios[i].pause();  
+              }  
+          }  
+      }, true);
+      </script>
+</body>
+</html>

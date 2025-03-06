@@ -1,0 +1,27 @@
+body{
+    background-image:url("bgg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.darshanravallogo1
+{
+    float: left;
+   
+}
+/* .darshanravallogo2
+{
+    float: left;
+    height: 75px;
+    width: 75px;
+} */
+.darshanravalimg{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-right:20%;
+   
+    
+
+}

@@ -1,0 +1,3 @@
+.play{ background-image:url('/faq/img/icon_play.svg'); background-size:contain; display:block; background-repeat: no-repeat; width: 3em; height: 3em; }
+
+.pause{ background-image:url('/faq/img/icon_pause.svg'); background-size:contain; display:block; width:3em; height:3em; }

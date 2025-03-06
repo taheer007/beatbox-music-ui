@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="neha.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+<body>
+    <div class="nehalogo1">
+    <img class="neha" src="Copy_of_Beat_Box-removebg.png" height="200px" width="300px">
+</div>
+    <div class="nehalogo2">
+    <center>
+         <img class="nehaimg" src="neha kakkar.jpg" >
+         <h3 class="nehaname">Neha Kakkar</h3>
+    </center>
+</div>
+    <center>
+    <li>
+<div>
+    <button>
+    <img src="dilbar.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="Neha Kakkar - Dilbar(PagalWorld.com.se).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="dil ko karar aaya.jpg" height="40px" width="40px"> 
+    <audio controls class="audbox" > <source src="Neha Kakkar - Dil Ko Karaar Aaya (Reprise Version)(PagalWorld.com.se).mp3" type="audio/mpeg"</audio>
+</button>
+</div>
+
+<div>
+    <button>
+    <img src="bol kaffara.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="Bol Kaffara Kya Hoga - Neha Kakkar.mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="sawan aaya hai.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="Sawan Aaya Hai (Female) Neha Kakkar (Creature 3D).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="maahi ve.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="Maahi Ve.mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+<div>
+    <button>
+    <img src="pee loon.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="12 Pee Loon-Ishq Sufiyana - Neha Kakkar 320Kbps.mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+<div>
+    <button>
+    <img src="badri ki.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="Badri Ki Dulhania - Title Song.mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+</li>
+    </center>
+    <script>
+        document.addEventListener('play', function(e){  
+          var audios = document.getElementsByTagName('audio');  
+          for(var i = 0, len = audios.length; i < len;i++){  
+              if(audios[i] != e.target){  
+                  audios[i].pause();  
+              }  
+          }  
+      }, true);
+      </script>
+</body>
+</html>
