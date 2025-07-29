@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/alan walker.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+<body>
+    <div class="alanwalkerlogo1">
+    <img class="alanwalker" src="../Images/Copy_of_Beat_Box-removebg.png" height="200px" width="300px">
+</div>
+    <div class="alanwalkerlogo2">
+    <center>
+         <img class="alanwalkerimg" src="../Images/alan walker.jpg">
+         <h3 class="alanwalkername">ALAN WALKER</h3>
+    </center>
+</div>
+ <br>
+    <center>
+    <li>
+<div>
+    <button>
+    <img src="../Images/alone part2.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/Alone, Pt. II(PagalWorld.com.pe).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="../Images/on my way.jpg"40px" width="40px"> 
+    <audio controls class="audbox" > <source src="../Songs/On-My-Way---Alan-Walker(PagalWorldl).mp3" type="audio/mpeg"</audio>
+</button>
+</div>
+
+<div>
+    <button>
+    <img src="../Images/man on the moon.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/Man On The Moon(PagalWorld.com.pe).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="../Images/catch me if you can.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/Catch Me If You Can(PagalWorld.com.pe).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="../Images/faded.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/Faded(PagalWorld.com.pe).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+<div>
+    <button>
+    <img src="../Images/fake a smile.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/Fake A Smile(PagalWorld.com.pe).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+</li>
+    </center>
+    <script>
+        document.addEventListener('play', function(e){  
+          var audios = document.getElementsByTagName('audio');  
+          for(var i = 0, len = audios.length; i < len;i++){  
+              if(audios[i] != e.target){  
+                  audios[i].pause();  
+              }  
+          }  
+      }, true);
+      </script>
+</body>
+</html>

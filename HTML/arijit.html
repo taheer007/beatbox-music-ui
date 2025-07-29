@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/arijit.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+<body>
+    <div class="arijitlogo1">
+    <img class="arijitlogo" src="../Images/Copy_of_Beat_Box-removebg.png" height="200px" width="300px">
+</div>
+    <div class="arijitlogo2">
+    <center>
+         <img class="arijitimg" src="../Images/arijit singh.jpg">
+         <h1 class="arijitname">ARIJIT SINGH</h1>
+    </center>
+</div>
+ <br>
+    <center>
+    <li>
+<div>
+    <button>
+    <img src="../Images/Ae_Dil_Hai_Mushkil.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/Ae Dil Hai Mushkil(KoshalWorld.Com).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="../Images/khairiyat.jpg" height="40px" width="40px"> 
+    <audio controls class="audbox" > <source src="../Songs/KHAIRIYAT (BONUS TRACK)(KoshalWorld.Com).mp3" type="audio/mpeg"</audio>
+</button>
+</div>
+
+<div>
+    <button>
+    <img src="../Images/bandeyaa.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/Chal chal ve tu Bandeya(KoshalWorld.Com).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="../Images/mere yaara.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/mere yaara.mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="../Images/suno na.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/Suno Na Sangemarmar(KoshalWorld.Com).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+<div>
+    <button>
+    <img src="../Images/thodi jagah.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/Thodi Jagah De De Mujhe(KoshalWorld.Com).mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+</li>
+    </center>
+    <script>
+        document.addEventListener('play', function(e){  
+          var audios = document.getElementsByTagName('audio');  
+          for(var i = 0, len = audios.length; i < len;i++){  
+              if(audios[i] != e.target){  
+                  audios[i].pause();  
+              }  
+          }  
+      }, true);
+      </script>
+</body>
+</html>

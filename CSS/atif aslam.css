@@ -1,0 +1,26 @@
+body{
+    background-image:url("../Images/bgg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.atifaslamlogo1
+{
+    float: left;
+   
+}
+/* .atifaslamlogo2
+{
+    float: left;
+    height: 75px;
+    width: 75px;
+} */
+.atifaslamimg{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-right:20%;
+
+
+}

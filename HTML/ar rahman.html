@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/ar rahman.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+<body>
+    <div class="arrahmanlogo1">
+    <img class="arrahmanlogo" src="../Images/Copy_of_Beat_Box-removebg.png" height="200px" width="300px">
+</div>
+    <div class="arrahmanlogo2">
+    <center>
+         <img class="arrahmanimg" src="../Images/ar rahman.jpg">
+         <h3 class="arrahmanname">AR RAHMAN</h3>
+    </center>
+</div>
+ <br>
+ 
+    <center>
+    <li>
+<div>
+    <button>
+    <img src="../Images/maa tujhe salam.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/Maa-Tujhe-Salaam-A.R.-Rahman.mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="../Images/kun fa yakun.jpg" height="40px" width="40px"> 
+    <audio controls class="audbox" > <source src="../Songs/old_Rockstar-Kun Faaya Kun.mp3" type="audio/mpeg"</audio>
+</button>
+</div>
+
+<div>
+    <button>
+    <img src="../Images/tu hai.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/bollywood_MD 2016 - Tu Hai.mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="../Images/tere bina.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/bollywood_Guru 2007 - Tere Bina.mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+
+<div>
+    <button>
+    <img src="../Images/chale chalo.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/Chale Chalo - Lagaan 128 Kbps.mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+<div>
+    <button>
+    <img src="../Images/mere desh.jpg" height="40px" width="40px"> 
+    <audio  controls class="audbox" > <source src="../Songs/old_Bhagat Singh-Desh Mere Desh.mp3" type="audio/mpeg"</audio>
+    </button>
+</div>
+</li>
+    </center>
+    <script>
+        document.addEventListener('play', function(e){  
+          var audios = document.getElementsByTagName('audio');  
+          for(var i = 0, len = audios.length; i < len;i++){  
+              if(audios[i] != e.target){  
+                  audios[i].pause();  
+              }  
+          }  
+      }, true);
+      </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+    background-image:url("../Images/bgg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.shreyalogo1
+{
+    float: left;
+    height: 75px;
+    width: 75px;
+}
+/* .logo2
+{
+    float: left;
+    height: 75px;
+    width: 75px;
+} */
+.shreyaimg{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-right:7%;
+}
+.shreyaname{
+    font-size: larger;
+    font-weight:bolder;
+}
